@@ -1,4 +1,4 @@
-import { defineStore } from "pinia";
+import { defineStore } from "pinia"
 
 
 export const useTaskStore = defineStore('taskStore', {
@@ -6,6 +6,6 @@ export const useTaskStore = defineStore('taskStore', {
         tasks: [
             {id: 1, title: "buy some milk", isFave: false},
             {id: 2, title: "play Gloomhaven", isFave: true},
-        ]    
+        ],  
     })
 })
